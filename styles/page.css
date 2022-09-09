@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+/*
+    I love html
+*/
+html, body {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Rubik', sans-serif;
+
+    margin: 0;
+
+    background-color: rgb(35,35,35);
+}
+
+.fill-container {
+    display: flex;
+
+    min-width: 100%;
+    min-height: max-content;
+}
+
+.fill-container > .title {
+    display: flex;
+
+    color: white;
+
+    margin: auto;
+
+    text-align: right;
+    align-self: center;
+}
