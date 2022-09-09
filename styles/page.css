@@ -19,17 +19,30 @@ html, body {
 .fill-container {
     display: flex;
 
+    flex-flow: column;
+
     min-width: 100%;
     min-height: max-content;
 }
 
 .fill-container > .title {
-    display: flex;
+    color: white;
+
+    margin: 0;
+    margin-top: auto;
+
+    font-size: 72px;
+    
+    text-align: right;
+    align-self: center;
+}
+
+.fill-container > .subtitle {
 
     color: white;
 
-    margin: auto;
-
-    text-align: right;
+    text-align: center;
     align-self: center;
+    margin: 0;
+    margin-bottom: auto;
 }
